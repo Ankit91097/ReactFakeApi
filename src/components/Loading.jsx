@@ -1,9 +1,10 @@
 import React from 'react'
+import { Orbit } from '@uiball/loaders'
 
 const Loading = () => {
   return (
     <div className='h-full w-full flex items-center justify-center'>
-        <h1 className='text-6xl'>Loading</h1>
+      <Orbit size={40} speed={1.5} color="#32cd32" />
     </div>
   )
 }
